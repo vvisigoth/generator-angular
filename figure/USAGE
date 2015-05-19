@@ -1,0 +1,8 @@
+Description:
+    Creates a new D3 figure
+
+Example:
+    yo angular:figure thing [--coffee]
+
+    This will create:
+        app/scripts/figures/thing.js
