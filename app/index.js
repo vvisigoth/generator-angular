@@ -320,6 +320,8 @@ Generator.prototype._injectDependencies = function _injectDependencies() {
       '\n' + chalk.yellow.bold('grunt wiredep')
     );
   } else {
+    this.bowerInstall('d3', {'save': true});
+
     this.spawnCommand('grunt', ['wiredep']);
   }
 };
